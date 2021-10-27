@@ -5,6 +5,17 @@ img{
 	height: auto;
 }
  
+
+select{
+background-color: #262626;
+color: #fff;
+width: 7%;
+padding: 5px 0; 
+border:none;
+border-bottom: solid 1px #3D3D3D;
+}
+
+
 .glav{overflow: hidden;}
 
 .section_1{
@@ -152,4 +163,150 @@ font-size: 0.8vw;
 .sect5_img{
  width: 24%;
  transform: translate(232%,-5.2%);
+}
+
+
+.section_6{
+ height:53vw;
+ background-image: url(../back-img/sect6_img.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: right top;
+margin-top: -0.7%;
+}
+
+.sect6_box{
+ transform: translate(55%,200%);
+}
+
+ .Uber_box{
+ display: inline-block;
+ color: #fff;
+ background-color: #111;
+ border-radius: 15px;
+ text-align: center;
+ padding: 1.2% 0.8%;
+transform: translate(785%,310%);
+ }
+
+ .sect6_textBox{
+ font-size: 2vw;
+ line-height: 90%;
+
+ }
+
+
+.sect6-box{
+transform: translate(47%,450%);
+}
+
+
+ .play_buttom {
+ display: inline-block;
+ color: #fff;
+ background-color: #111;
+ border-radius: 10px;
+ padding: 0.5%;
+ margin-right: 2%;
+}
+
+.play_buttom img{
+ margin-top: 3%;
+ width: 2.2vw;
+
+ }
+
+ .play_buttom h1{
+ float: right;
+ font-size: 1.6vw;
+ margin-left: 2px;
+}
+
+.play_buttom h1::before{
+ content: "GET IT ON";
+ display: block;
+ font-size: 1vw;
+ font-weight: normal;
+  }
+
+.apple_buttom {
+display: inline-block;
+ color: #fff;
+ background-color: #111;
+ border-radius: 10px;
+ padding: 0.5%;
+ 
+}
+ .apple_buttom  img{margin-top: 3%;
+ width: 2.2vw;}
+
+ .apple_buttom h1{
+ float: right;
+ font-size: 1.6vw;
+  margin-left: 2px;
+}
+
+ .apple_buttom h1::before{
+ content: "Download on the";
+ display: block;
+ font-size: 1vw;
+ font-weight: normal;
+}
+
+.section_7{
+height: 45vw;
+background-image: url(../back-img/img-sect_7.png);
+background-position: top center;
+background-size: cover;
+}
+
+.sect7-box_glav{
+display: grid;
+grid-template-columns: 26% 32%;
+justify-content: center;
+transform: translateY(100%);
+
+}
+
+.sect7_box1 h1 ,.sect7_box2 h1{
+ font-size: 1.8vw;
+ margin: 2% 0 5% 0;
+}
+.sect7_box1 p ,.sect7_box2 p{
+ font-size: 1.3vw;
+ line-height: 2;
+}
+.sect7_box1 img ,.sect7_box2 img{
+max-width: 5vw;
+height: 4vw;
+}
+
+.sect7_box2{
+padding-left: 15%;
+margin-left: 5%;
+border-left: solid 2px #D9DADB; 
+}
+
+.bt_sect7{
+margin: 5% 0 0 0 !important;
+
+padding: 1% 7%;
+}
+
+footer{
+ height: 28.125vw;
+ background-color: #262626;
+ color: #fff;
+}
+
+.foot-box0 {
+height: 25%;
+border-bottom: solid 1px #3D3D3D;
+}
+
+.foot-content_box{ 
+display: grid;
+grid-template-columns: repeat(5, 18%);
+justify-content: center;
+margin-top: 2%;
 }
